@@ -1,0 +1,30 @@
+// Set variable for age
+let myAge = 36;
+
+// Setting early years, changable variable
+let earlyYears = 2;
+
+earlyYears *= 10.5;
+
+console.log(earlyYears);
+
+// Subtracting 2 since it is already accounted for in early years
+let laterYears = (myAge - 2); 
+
+// Multiple by for 4 for dog years 
+laterYears *= 4;
+
+console.log(laterYears);
+
+// Adding early and later years variables together
+var myAgeInDogYears = earlyYears + laterYears;
+
+console.log(myAgeInDogYears);
+
+// Setting name variable to all lowercase
+var myName = 'Michelle Erwin';
+
+console.log(myName.toLowerCase());
+
+//Write out sentence with variables
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
